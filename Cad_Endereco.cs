@@ -24,5 +24,12 @@ namespace CadastroBasicoDesktop
             this.frm_menu.Show();
             this.Close();
         }
+
+        private void Cad_Endereco_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'db_agendaDataSet.tbEndereco'. Você pode movê-la ou removê-la conforme necessário.
+            this.tbEnderecoTableAdapter.Fill(this.db_agendaDataSet.tbEndereco);
+
+        }
     }
 }

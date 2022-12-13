@@ -52,6 +52,12 @@
     <Compile Include="Cad_Endereco.Designer.cs">
       <DependentUpon>Cad_Endereco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classe_BLL\clsUsuario.cs" />
+    <Compile Include="db_agendaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>db_agendaDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="lst_Usuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,17 @@
     <EmbeddedResource Include="RelatorioUsuario.resx">
       <DependentUpon>RelatorioUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="db_agendaDataSet.xsc">
+      <DependentUpon>db_agendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="db_agendaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>db_agendaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="db_agendaDataSet.xss">
+      <DependentUpon>db_agendaDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -40,6 +40,8 @@ namespace CadastroBasicoDesktop
 
         private void Cad_Usuario_Load(object sender, EventArgs e)
         {
+            // TODO: esta linha de código carrega dados na tabela 'db_agendaDataSet.tbContatos'. Você pode movê-la ou removê-la conforme necessário.
+            this.tbContatosTableAdapter.Fill(this.db_agendaDataSet.tbContatos);
             if (dgv_ListaUsuarios.RowCount == 0)
             {
                 MessageBox.Show("Nenhum registro encontrado", "Lista de Usuarios", MessageBoxButtons.OK);

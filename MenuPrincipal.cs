@@ -95,7 +95,8 @@ namespace CadastroBasicoDesktop
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Window.
+            this.Close();
+
         }
     }
 }
