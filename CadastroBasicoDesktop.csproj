@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,7 +53,9 @@
     <Compile Include="Cad_Endereco.Designer.cs">
       <DependentUpon>Cad_Endereco.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classe_BLL\clsEndereco.cs" />
     <Compile Include="Classe_BLL\clsUsuario.cs" />
+    <Compile Include="Classe_DAL\clsAcessoDados.cs" />
     <Compile Include="db_agendaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
